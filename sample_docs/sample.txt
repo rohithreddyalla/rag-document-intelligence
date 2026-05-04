@@ -1,0 +1,9 @@
+Artificial Intelligence (AI) is a branch of computer science focused on building systems that can perform tasks that typically require human intelligence.
+
+Machine learning is a subset of AI that enables systems to learn from data and improve over time without being explicitly programmed.
+
+Retrieval-Augmented Generation (RAG) combines document retrieval with language model generation to produce grounded, accurate responses.
+
+Vector databases like FAISS store embeddings enabling fast semantic similarity search across large document collections.
+
+Quality assurance for AI systems involves evaluating output consistency, hallucination detection, edge case handling, and response reliability.
