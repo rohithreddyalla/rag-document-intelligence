@@ -16,7 +16,7 @@ with st.sidebar:
 uploaded_file = st.file_uploader("Upload a PDF or TXT file", type=["pdf", "txt"])
 
 if uploaded_file:
-    with tempfile.NamedTemporaryFile(delete=False, suffix=f".{uploaded_file.name.split(".")[-1]}") as tmp:
+    with tempfile.NamedTemporaryFile(delete=False, suffix="." + uploaded_file.name.split(".")[-1]) as tmp:
         tmp.write(uploaded_file.read())
         tmp_path = tmp.name
     with st.spinner("Processing document..."):
